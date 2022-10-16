@@ -1,2 +1,11 @@
-import Home from './Home'
-export default Home
+import Home from './pages/Home'
+import Navbar from './pages/Navbar'
+import Sign from './pages/Sign'
+import MyWallet from './pages/MyWallet'
+import Transaction from './pages/Transaction'
+
+export { default as Home } from './pages/Home'
+export { default as Navbar } from './pages/Navbar'
+export { default as Sign } from './pages/Sign'
+export { default as MyWallet } from './pages/MyWallet'
+export { default as Transaction } from './pages/Transaction'

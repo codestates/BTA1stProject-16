@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom';
+
 // import { Repo, RepoList, inference, coldstart, repoToURL, Infos } from '../utils/api'
 
+import CssBaseline from '@mui/material/CssBaseline';
+import Container from '@mui/material/Container';
 import {
   Box,
   Button,
@@ -11,7 +14,6 @@ import {
   Grid,
   Typography,
 } from '@mui/material'
-
 import { createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({
@@ -78,6 +80,13 @@ const Home : React.FC = () => {
     // </div>
     <div>
         <ThemeProvider theme={theme}>
+          <React.Fragment>
+            <CssBaseline />
+            <Container maxWidth="sm" sx={{ bgcolor: '#cfe8fc', width:'357px',height: '600px' }}>
+              <Box  />
+             
+            </Container>
+          </React.Fragment>
           <Card>
             <CardContent>
               <h1>wallet</h1>
