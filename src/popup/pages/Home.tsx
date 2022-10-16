@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom';
-
 // import { Repo, RepoList, inference, coldstart, repoToURL, Infos } from '../utils/api'
-
+import Navbar from './Navbar'
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import {
@@ -14,6 +13,7 @@ import {
   Grid,
   Typography,
 } from '@mui/material'
+
 import { createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({
@@ -84,7 +84,7 @@ const Home : React.FC = () => {
             <CssBaseline />
             <Container maxWidth="sm" sx={{ bgcolor: '#cfe8fc', width:'357px',height: '600px' }}>
               <Box  />
-             
+              <Navbar />
             </Container>
           </React.Fragment>
           <Card>
