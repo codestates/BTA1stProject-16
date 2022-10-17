@@ -1,10 +1,61 @@
-# Getting Started with Create React App
+## 1. 팀 소개
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### BTA-03-16
 
-## Available Scripts
+- **팀 명 : 2Drops**
+- **팀원 : 김지훈, 홍유진**
+- **Date : 2022/10/13 - 2022/10/16**
+- **선정 코인 : Hermez(HEZ)**
 
-In the project directory, you can run:
+## 깃 레포
+
+[GitHub - codestates/BTA1stProject-16](https://github.com/codestates/BTA1stProject-16)
+
+## 2. 선정 네트워크 소개 (zkEVM Hermez, HEZ)
+
+![hermez.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98ecac6a-dc3c-47c0-b00a-8e4e663e08d0/hermez.jpeg)
+
+### ⛓️  2.1 개요
+
+이더리움 퍼블릭 블록체인에서 지배적인 확장 패러다임이 될 것이라는 것이 분명해졌습니다. 이를 염두에 두고 Iden3는 이더 리움에서 지불 및 토큰 전송 확장에 중점을 둔 ZK- **롤업 인 Hermez를 개발하고 최근 출시했습니다.**
+
+**이더리움 네트워크 거래의 50% 이상이 이체**이며, 그 중 상당 부분이 **거래소에서 입출금**되는 것으로 나타났습니다. 거래소가 롤업을 사용하기 시작하거나 (이상적인 경우) 동일한 롤업에서 만나기로 동의한 경우 수요가 상당히 감소할 수 있습니다.
+
+**사용자의 거래 비용**을 크게 줄이는 것 외에도 **가스 가격을 크게 낮추고** 더 복잡한 계약을 위해 **기본 체인을 확보**할 수 있는 추가 이점이 있습니다.
+
+### ⛓️ 2.2 zkEVM(Hermez) 동작 원리
+
+zkEVM의 주요 기능은 스마트 계약 지원을 제공하는 것입니다. Ethereum Layer 2 트랜잭션 실행(사용자가 네트워크로 보내는 트랜잭션)으로 인한 상태 전환 작업을 수행합니다. 그 후, 영지식 증명 기술을 사용하여 오프체인에서 수행된 이러한 상태 변경 계산의 정확성을 증명하는 유효성 증명을 생성합니다.
+
+**[ zkEVM의 주요 구성 요소 ]**
+
+zkEVM의 주요 구성 요소는 다음과 같습니다
+
+- 효율성 증명(PoE) 합의 메커니즘
+- zkNode software including a **synchronizer, sequencer and aggregator.**
+- LX-to-LY bridge.
+- zkProver.
+- Active users of the zkEVM network who create transactions.는 다음과 같습니다
+- **효율성 증명(PoE) 합의 메커니즘**
+- zkNode software including a **synchronizer, sequencer and aggregator.**
+- **LX-to-LY bridge.**
+- **zkProver.**
+- Active users of the zkEVM network who create transactions.
+
+## 3. 프로젝트 소개
+
+### 💡 개요
+
+### 💡 핵심 기능
+
+- Chrome Extension 기반 지갑
+- 중앙 서버 통제 없이 사용자가 직접 지갑 보유
+- HD지갑 발급 및 계정 발급 기능
+- 잔액 조회
+- 토큰 전송
+- 계정 활동 내역
+
+## Getting Started
 
 ### `npm start`
 
@@ -29,42 +80,3 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
