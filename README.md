@@ -9,8 +9,8 @@
 - **깃헙 레포 : ** [GitHub - codestates/BTA1stProject-16](https://github.com/codestates/BTA1stProject-16)
 
 ## 2. 선정 네트워크 소개 (zkEVM Hermez, HEZ)
+![hermez](https://user-images.githubusercontent.com/99964401/196068546-5cb95f03-4475-4008-bedb-5b401e185bae.jpeg)
 
-![hermez.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98ecac6a-dc3c-47c0-b00a-8e4e663e08d0/hermez.jpeg)
 
 ### ⛓️  2.1 개요
 
