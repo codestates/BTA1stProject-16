@@ -6,10 +6,7 @@
 - **팀원 : 김지훈, 홍유진**
 - **Date : 2022/10/13 - 2022/10/16**
 - **선정 코인 : Hermez(HEZ)**
-
-## 깃 레포
-
-[GitHub - codestates/BTA1stProject-16](https://github.com/codestates/BTA1stProject-16)
+- **깃헙 레포 : ** [GitHub - codestates/BTA1stProject-16](https://github.com/codestates/BTA1stProject-16)
 
 ## 2. 선정 네트워크 소개 (zkEVM Hermez, HEZ)
 
@@ -44,8 +41,6 @@ zkEVM의 주요 구성 요소는 다음과 같습니다
 
 ## 3. 프로젝트 소개
 
-### 💡 개요
-
 ### 💡 핵심 기능
 
 - Chrome Extension 기반 지갑
@@ -56,6 +51,12 @@ zkEVM의 주요 구성 요소는 다음과 같습니다
 - 계정 활동 내역
 
 ## Getting Started
+
+### 1. 초기 세팅
+`npm run build`
+
+### 2. 크롬 익스텐션 -> 개발자 모드
+`dir: build 선택 & 추가`
 
 ### `npm start`
 
